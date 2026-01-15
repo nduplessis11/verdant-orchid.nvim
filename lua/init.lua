@@ -1,9 +1,9 @@
 local M = {}
 
-local config  = require("verdantorchid.config")
-local palette = require("verdantorchid.palette")
-local groups  = require("verdantorchid.groups")
-local util    = require("verdantorchid.util")
+local config  = require("verdant-orchid.config")
+local palette = require("verdant-orchid.palette")
+local groups  = require("verdant-orchid.groups")
+local util    = require("verdant-orchid.util")
 
 function M.setup(opts)
   config.setup(opts)
@@ -28,7 +28,7 @@ function M.load(opts)
     vim.o.termguicolors = true
   end
 
-  vim.g.colors_name = "verdant_orchid"
+  vim.g.colors_name = "verdant-orchid"
 
   local colors = palette.get()
   if type(o.on_colors) == "function" then

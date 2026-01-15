@@ -1,4 +1,3 @@
-
 local M = {}
 
 -- Palette: ONLY colors present in PLAYPAL.pal (VioletShift), palette 0
