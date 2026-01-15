@@ -1,4 +1,4 @@
-# verdantorchid.nvim
+# verdant-orchid.nvim
 
 **Verdant Orchid** — dark, vibrant green + purple Neovim colorscheme.
 
@@ -18,17 +18,14 @@ In your `init.lua`:
 
 ```lua
 vim.pack.add({
-  -- Any of these forms are supported by vim.pack:
-  "https://github.com/YOUR_GITHUB_USER/verdantorchid.nvim",
-  -- or:
-  -- { src = "https://github.com/nduplessis11/verdantorchid.nvim" },
+  { src = "https://github.com/nduplessis11/verdant-orchid.nvim" },
 })
 
 -- Optional config (must run before :colorscheme)
-require("verdantorchid").setup({
+require("verdant-orchid").setup({
   -- on_colors = function(c) ... end,
   -- on_highlights = function(hl, c) ... end,
 })
 
-vim.cmd.colorscheme("verdant_orchid")
+vim.cmd.colorscheme("verdant-orchid")
 ```
