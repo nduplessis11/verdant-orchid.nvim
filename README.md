@@ -1,7 +1,6 @@
 # verdantorchid.nvim
 
 **Verdant Orchid** — dark, vibrant green + purple Neovim colorscheme.
-Palette constrained to VioletShift PLAYPAL (no yellow).
 
 - Tree-sitter highlight groups (`@...`)
 - LSP semantic token groups (`@lsp...`)
